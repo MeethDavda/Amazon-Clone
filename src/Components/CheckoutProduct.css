@@ -1,0 +1,27 @@
+.checkoutProduct {
+  display: flex;
+  flex-direction: row;
+  padding: 1.6em;
+  background-color: white;
+}
+.checkoutProduct > img {
+  width: 14em;
+  object-fit: contain;
+  max-height: 14em;
+  min-height: 10em;
+}
+.prod_info {
+  margin-left: 2em;
+}
+.prod_info > button {
+  background-color: #f0c14b;
+  border: 1px solid;
+  border-color: #a88734 #9c7e31 #846a29;
+  width: 12em;
+  font-weight: 20px;
+  border-radius: 3px;
+  margin-top: 2em;
+}
+.prod_info > p {
+  margin-top: 0.5em;
+}
